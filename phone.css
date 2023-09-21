@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    nav>h2,
+    .divide {
+        margin: 0;
+    }
+
+    .text {
+        height: auto;
+    }
+
+    .text2>h2 {
+        font-size: 2.5rem;
+    }
+
+    .text>p,
+    div {
+        text-align: center;
+    }
+
+    div>input,
+    button {
+        margin: 10px;
+    }
+
+    .add,
+    .laptop,
+    .children {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .line,
+    .watch,
+    .create,
+    .download {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .television,
+    .apple,
+    .child {
+        width: 100%;
+        height: auto;
+    }
+
+    .mobile {
+
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .photo {
+        height: auto;
+        width: 100%;
+    }
+}

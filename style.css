@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/netflixteaser.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+}
+
+nav>h2 {
+    color: red;
+    margin: 0 0 0 10%;
+}
+
+.divide {
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.text {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.text>p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.text2>h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hr {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(35, 35, 35);
+}
+
+.add {
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.line {
+    width: 50%;
+    height: 100%;
+    padding: 111px;
+}
+
+.television {
+    width: 50%;
+    height: 100%;
+}
+
+.television>img {
+    height: 100%;
+    width: 100%;
+}
+
+.mobile {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.photo {
+    width: 50%;
+    height: 100%;
+}
+
+.photo>img {
+    width: 100%;
+    height: 100%;
+}
+
+.download {
+    width: 50%;
+    height: 100%;
+    padding: 111px;
+}
+
+.laptop {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.watch {
+    width: 50%;
+    height: 100%;
+    padding: 156px 0 0 170px;
+}
+
+.apple {
+    width: 50%;
+    height: 100%;
+}
+
+.apple>img {
+    height: 100%;
+    width: 100%;
+}
+
+.children {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.child {
+    width: 50%;
+    height: 100%;
+}
+
+.child>img {
+    height: 100%;
+    width: 100%;
+}
+
+.create {
+    width: 50%;
+    height: 100%;
+    padding: 111px;
+}
+
+.question {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.answer {
+    background-color: rgb(35, 35, 35);
+    margin: 12px auto;
+    height: 100px;
+}
+
+.answer:hover {
+    background-color: rgb(77, 71, 71);
+}
+
+footer {
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foo1 {
+    height: 70%;
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.foo2 {
+    height: 50%;
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.foo3 {
+    height: 50%;
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.foo4 {
+    height: 50%;
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+}
+
+.content{
+    height: auto;
+    width: 75%;
+    background-color: rgb(35, 35, 35);
+    margin: 12px auto;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0 0 0 16px;
+    display: none;
+}
